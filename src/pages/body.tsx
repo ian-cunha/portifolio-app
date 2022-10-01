@@ -96,7 +96,7 @@ function Body() {
           fontWeight='bold'
           mt='4'
           mb='4'
-        >Contato</Text>
+        >Contatos</Text>
         <Flex alignItems="center" justifyContent="center">
           <Button w={20} h={20} m='2' color='white' variant='ghost' as='a' target='_blank' href='https://www.linkedin.com/in/ian-cunha-b34b011a0/'
             _hover={{

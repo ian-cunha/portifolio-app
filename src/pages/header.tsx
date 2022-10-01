@@ -35,6 +35,26 @@ function Header() {
           <ChevronDownIcon color='white' w={8} h={8} />
         </MenuButton>
         <MenuList bgGradient='linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);' p='30'>
+          <MenuItem as='a' target='_blank' href='https://ian-cunha.notion.site/ian-cunha/Ian-Matheus-da-Cunha-PT-BR-6cfb0e4fa86d48c48414416f2fcdc830'
+            _hover={{
+              bg: "black",
+              color: "white"
+            }}
+            _focus={{
+              bg: "black",
+              color: "white"
+            }}
+            fontWeight='semibold' fontSize="2em" p='10'>Currículo</MenuItem>
+          <MenuItem as='a' target='_blank' href='https://www.behance.net/inatus'
+            _hover={{
+              bg: "black",
+              color: "white"
+            }}
+            _focus={{
+              bg: "black",
+              color: "white"
+            }}
+            fontWeight='semibold' fontSize="2em" p='10'>Behance</MenuItem>
           <MenuItem as='a' target='_blank' href='https://linktr.ee/ian.cunha'
             _hover={{
               bg: "black",
@@ -45,26 +65,6 @@ function Header() {
               color: "white"
             }}
             fontWeight='semibold' fontSize="2em" p='10'>Linktr.ee</MenuItem>
-                      <MenuItem as='a' target='_blank' href='https://ian-cunha.notion.site/ian-cunha/Ian-Matheus-da-Cunha-PT-BR-6cfb0e4fa86d48c48414416f2fcdc830'
-            _hover={{
-              bg: "black",
-              color: "white"
-            }}
-            _focus={{
-              bg: "black",
-              color: "white"
-            }}
-            fontWeight='semibold' fontSize="2em" p='10'>Currículo</MenuItem>
-          <MenuItem
-            _hover={{
-              bg: "black",
-              color: "white"
-            }}
-            _focus={{
-              bg: "black",
-              color: "white"
-            }}
-            fontWeight='semibold' fontSize="2em" p='10'>Contatos</MenuItem>
           <MenuItem as='a' target='_blank' href='https://hpainkxfy78.typeform.com/to/X3RoAe5v'
             _hover={{
               bg: "black",
