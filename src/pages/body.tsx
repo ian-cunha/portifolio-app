@@ -23,10 +23,10 @@ function Body() {
           textAlign='center'
           bgGradient='linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);'
           bgClip='text'
-          fontSize='9xl'
+          fontSize={{ base: '70px', md: '80px', lg: '100px' }}
           fontWeight='extrabold'
         >Ian Cunha</Heading>
-        <Text textAlign='center' fontSize='3em' color='white'>
+        <Text textAlign='center' fontSize={{ base: '2em', md: '2em', lg: '3em' }} color='white'>
           Frontend Developer | UX/UI | Designer.
         </Text>
         <Text color='white' fontSize='1.3em' ml='8' mr='8' textAlign='center'>

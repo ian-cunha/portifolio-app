@@ -24,7 +24,7 @@ function Boxes() {
   }
 
   return (
-    <Flex>
+    <Flex display={{ base: 'block', md: 'flex', lg: 'flex' }}>
       <Box bg='white' m='2' maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
         <Image src={marta} alt={boxOne.imageAlt} />
 
